@@ -1,0 +1,53 @@
+/****************************
+***
+***
+    RESPONSIVE
+***
+***
+*****************************/
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 768px) {
+  .login-container {
+    max-width: 100%;
+  }
+  .favicon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 30px;
+  }
+  .logout-button {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 320px) {}
+
+
+@media (max-height: 440px) {
+  .favicon {
+    margin-bottom: 10px;
+  }
+  .login-container input[type="text"],
+  .login-container input[type="password"],
+  .login-container button {
+    margin-bottom: 5px;
+  }
+  .login-container button {
+    margin-top: 5px;
+  }
+  .login-container .margin-top {
+    margin-top: 0;
+  }
+  .login-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
